@@ -1,0 +1,15 @@
+{
+    "command": "pip",
+    "desc": "Python package manager. Some subcommands such as pip install have their own usage documentation. More information: <https://pip.pypa.io>. ",
+    "install": {
+      "ubuntu": "apt-get install python-pip",
+      "debian": "apt-get install python-pip",
+      "alpine": "apk add py3-pip",
+      "arch": "pacman -S python-pip",
+      "kali": "apt-get install python-pip",
+      "centos": "yum install python-pip",
+      "fedora": "dnf install python-pip",
+      "wsl2": "sudo apt-get update && sudo apt-get install python-pip",
+      "raspbian": "apt-get install python-pip"
+    }
+  }

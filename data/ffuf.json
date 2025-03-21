@@ -1,0 +1,16 @@
+{
+    "command": "ffuf",
+    "desc": "A fast web fuzzer written in Go. More information: <https://github.com/ffuf/ffuf>. ",
+    "dependencies": ["go"],
+    "install": {
+      "ubuntu": "go install github.com/ffuf/ffuf/v2@latest",
+      "debian": "go install github.com/ffuf/ffuf/v2@latest",
+      "alpine": "go install github.com/ffuf/ffuf/v2@latest",
+      "arch": "go install github.com/ffuf/ffuf/v2@latest",
+      "kali": "apt-get install -y ffuf",
+      "centos": "go install github.com/ffuf/ffuf/v2@latest",
+      "fedora": "go install github.com/ffuf/ffuf/v2@latest",
+      "wsl2": "go install github.com/ffuf/ffuf/v2@latest",
+      "raspbian": "go install github.com/ffuf/ffuf/v2@latest"
+    }
+  }

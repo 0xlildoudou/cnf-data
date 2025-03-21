@@ -1,0 +1,15 @@
+{
+    "command": "go",
+    "desc": "Tool for managing go source code. Some subcommands such as go build have their own usage documentation. More information: <https://golang.org>. ",
+    "install": {
+      "ubuntu": "apt-get install golang-bin",
+      "debian": "apt-get install golang-bin",
+      "alpine": "apk add go",
+      "arch": "pacman -S go",
+      "kali": "apt-get install golang-bin",
+      "centos": "yum install golang-bin",
+      "fedora": "dnf install golang-bin",
+      "wsl2": "sudo apt-get update && sudo apt-get install golang-bin",
+      "raspbian": "apt-get install golang-bin"
+    }
+  }

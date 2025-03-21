@@ -1,0 +1,15 @@
+{
+    "command": "curl",
+    "desc": "Transfers data from or to a server. Supports most protocols, including HTTP, FTP, and POP3. More information: <https://curl.se/docs/manpage.html>. ",
+    "install": {
+      "ubuntu": "apt-get install curl",
+      "debian": "apt-get install curl",
+      "alpine": "apk add curl",
+      "arch": "pacman -S curl",
+      "kali": "apt-get install curl",
+      "centos": "yum install curl",
+      "fedora": "dnf install curl",
+      "wsl2": "sudo apt-get update && sudo apt-get install curl",
+      "raspbian": "apt-get install curl"
+    }
+  }

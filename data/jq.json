@@ -1,0 +1,15 @@
+{
+    "command": "jq",
+    "desc": "A command-line JSON processor that uses a domain-specific language (DSL). More information: <https://stedolan.github.io/jq/manual/>. ",
+    "install": {
+      "ubuntu": "apt-get install jq",
+      "debian": "apt-get install jq",
+      "alpine": "apk add jq",
+      "arch": "pacman -S jq",
+      "kali": "apt-get install jq",
+      "centos": "yum install jq",
+      "fedora": "dnf install jq",
+      "wsl2": "sudo apt-get update && sudo apt-get install jq",
+      "raspbian": "apt-get install jq"
+    }
+  }

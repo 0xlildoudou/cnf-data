@@ -1,0 +1,15 @@
+{
+    "command": "neofetch",
+    "desc": "Display information about your operating system, software and hardware. More information: <https://github.com/dylanaraps/neofetch>. ",
+    "install": {
+      "ubuntu": "apt-get install neofetch",
+      "debian": "apt-get install neofetch",
+      "alpine": "apk add neofetch",
+      "arch": "pacman -S neofetch",
+      "kali": "apt-get install neofetch",
+      "centos": "yum install neofetch",
+      "fedora": "dnf install neofetch",
+      "wsl2": "sudo apt-get update && sudo apt-get install neofetch",
+      "raspbian": "apt-get install neofetch"
+    }
+  }
