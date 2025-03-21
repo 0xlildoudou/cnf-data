@@ -1,0 +1,14 @@
+command: tar
+desc: |
+  Archiving utility. Often combined with a compression method, such as gzip or bzip2. More information: <https://www.gnu.org/software/tar>. 
+
+install:
+  ubuntu: "apt-get install tar"
+  debian: "apt-get install tar"
+  alpine: "apk add tar"
+  arch: "pacman -S tar"
+  kali: "apt-get install tar"
+  centos: "yum install tar"
+  fedora: "dnf install tar"
+  wsl2: "sudo apt-get update && sudo apt-get install tar"
+  raspbian: "apt-get install tar"
